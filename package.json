@@ -1,9 +1,12 @@
 {
-  "name": "noitu",
+  "name": "@minhqnd/noitu",
   "version": "1.0.1",
   "description": "A Vietnamese word connection game library with word validation and next word finding capabilities",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "build": "tsc",
     "test": "jest",
@@ -27,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/minhqnd/noitu.git"
+    "url": "git+https://github.com/minhqnd/noitu.git"
   },
   "devDependencies": {
     "@types/jest": "^29.5.0",
