@@ -1,0 +1,56 @@
+# Source files
+src/
+tests/
+examples/
+
+# Development files
+*.config.js
+*.config.ts
+jest.config.js
+tsconfig.json
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Development and test files
+.nyc_output
+
+# Environment variables
+.env
+.env.test
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Other
+*.tgz
+*.tar.gz
+.cache/
